@@ -1,0 +1,624 @@
+body{
+    background-color: #476A6F;
+}
+h1{
+    font-family: 'Euphoria Script', cursive;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    color: #fafafc;
+}
+header>nav{
+    font-family: 'Euphoria Script', cursive;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    color: #fafafc;
+}
+.hamburger{
+    display: none;
+}
+header>nav>a{
+    padding: 1rem;
+    color: #B3D0D0;
+}
+.light{
+    width: 100%;
+    margin: 0;
+    max-height: 20%;
+}
+.cover{
+    display: block;
+    width: 70%;
+    margin: auto;
+    background-color: #B3D0D0;
+    padding: .5rem;
+}
+.coverhead{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Euphoria Script', cursive;
+    display: flex;
+    justify-content: center;
+    color: #fafafc;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Euphoria Script', cursive;
+    display: flex;
+    justify-content: center;
+    color: #fafafc;
+}
+nav>a:hover{
+    color: #CC988E;
+}
+.storypic{
+    display: block;
+    width: 50%;
+    margin: auto;
+    background-color: #B3D0D0;
+    padding: .5rem;
+}
+.photos{
+    max-width: 30%;
+}
+.story{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 80%;
+    display: block;
+    margin: auto;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: 150%;
+    color: #fafafc;
+}
+.storywords{
+    padding: 1rem;
+}
+.church{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 70%;
+    display: block;
+    margin: auto;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: 150%;
+    color: #fafafc;
+    font-size: 2rem;
+}
+.churchp{
+    padding: 2rem;
+}
+.churchpic{
+    background-color: #B3D0D0;
+    max-height: 40rem;
+    padding: .5rem;
+}
+.churchaddress{
+    color: #fafafc;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.barn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 73%;
+    display: block;
+    margin: auto;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: 150%;
+    color: #fafafc;
+    font-size: 2rem;
+}
+.barnp{
+    padding: 2rem;
+}
+.barnaddress{
+    color: #fafafc;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.barnpic{
+    max-height: 27rem;
+    padding: .5rem;
+    background-color: #B3D0D0;
+}
+.schedule{
+    font-family: 'Euphoria Script', cursive;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    font-size: 3rem;
+    color: #fafafc;
+    justify-content: center;
+}
+.image1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 95%;
+    height: 95%;
+}
+.image2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 95%;
+    height: 95%;
+}
+.image3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 95%;
+    height: 95%;
+}
+.image4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    width: 95%;
+    height: 95%;
+}
+.image5{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 95%;
+    height: 95%;
+}
+.image6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 95%;
+    height: 95%;
+}
+.image7{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 95%;
+    height: 95%;
+}
+.photos{
+    display: grid;
+    grid-template-columns: 120% 110% 105%;
+    grid-template-rows: 30% 20% 15% 30%;
+}
+.photop{
+    font-family: 'Euphoria Script', cursive;
+    font-size: 8rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.all{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 6rem;
+}
+.links{
+    padding: 5rem 10rem;
+    font-size: 5rem;
+    font-family: 'Euphoria Script', cursive;
+    display: block;
+}
+.links>a{
+    padding:4rem;
+}
+.h4{
+    font-size: 4rem;
+    color: #fafafc;
+    font-family: 'Euphoria Script', cursive;
+    margin: 1rem;
+    padding-top: 1rem;
+}
+.h5{
+    font-size: 3rem;
+    color:#B3D0D0;
+    font-family: 'Euphoria Script', cursive; 
+    padding-left: 3rem; 
+}
+.bride{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.jopic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.groom{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.ryanpic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.bride1{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.lexipic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.groom1{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.gp{
+    padding: 1rem;
+}
+.coreypic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.bride2{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.jennapic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.groom2{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.brandonpic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.bride3{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.miahpic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.groom3{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.fickpic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.bride4{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.carlypic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.groom4{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.jarodpic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.bride5{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.morganpic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.groom5{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.matthiaspic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.bride6{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.allisonpic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.groom6{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.devonpic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.bride7{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.mylaneypic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.groom7{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.quinnpic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.registry{
+    max-height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 0;
+}
+.links{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 4rem;
+}
+.target{
+    margin: 0;
+    font-size: 4rem;
+    color: #B3D0D0;
+}
+.target:hover{
+    color: #CC988E;
+}
+.amazon{
+    margin: 0;
+    font-size: 4rem;
+    color: #B3D0D0;
+}
+.amazon:hover{
+    color: #CC988E;
+}
+.menards{
+    margin: 0;
+    font-size: 4rem;
+    color: #B3D0D0;
+}
+.menards:hover{
+    color: #CC988E;
+}
+
+@media(max-width:1200px){
+    h1{
+        font-size: 4rem;
+    }
+    header>nav{
+        font-size: 1.25rem;
+    }
+    header>nav>a{
+        padding: .5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    .story{
+        display: block;
+    }
+    .churchpic{
+        width: 40%;
+    }
+    .schedule{
+        font-size: 1.5rem;
+    }
+    .photop{
+        font-size: 3rem;
+    }
+    .links{
+        font-size: 1.5rem;
+    }
+
+}
+.icons{
+    max-height: 10rem;
+}
