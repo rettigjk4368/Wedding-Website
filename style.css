@@ -143,67 +143,6 @@ nav>a:hover{
     color: #fafafc;
     justify-content: center;
 }
-.image1{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    width: 95%;
-    height: 95%;
-}
-.image2{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    width: 95%;
-    height: 95%;
-}
-.image3{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    width: 95%;
-    height: 95%;
-}
-.image4{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 5;
-    width: 95%;
-    height: 95%;
-}
-.image5{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    width: 95%;
-    height: 95%;
-}
-.image6{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    width: 95%;
-    height: 95%;
-}
-.image7{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    width: 95%;
-    height: 95%;
-}
-.photos{
-    display: grid;
-    grid-template-columns: 120% 110% 105%;
-    grid-template-rows: 30% 20% 15% 30%;
-}
 .photop{
     font-family: 'Euphoria Script', cursive;
     font-size: 8rem;
