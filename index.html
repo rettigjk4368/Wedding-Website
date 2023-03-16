@@ -18,16 +18,23 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <script src="scripts.js"></script>
 </head>
 <body>
     <img src="images/Untitled design (9).png" alt="lights" class="light">
+    <div class="overlay" class="toggle-nav"></div>
     <header>
+        <div class="hamburger" onclick="toggleNav()">
+            <hr>
+            <hr>
+            <hr>
+        </div>
         <h1>Ryan & Jordan</h1>
-        <nav>
+        <nav class="toggle-nav">
             <a href="index.html">Home</a>
             <a href="story.html">Our Story</a>
             <a href="party.html">Wedding Party</a>
-            <a href="venue.html">Venue</a>
+            <a href="venue.html">Location</a>
             <a href="schedule.html">Schedule</a>
             <a href="photos.html">Photos</a>
             <a href="registry.html">Registry</a>

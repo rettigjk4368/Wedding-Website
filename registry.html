@@ -18,16 +18,23 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <script src="scripts.js"></script>
 </head>
 <body>
     <img src="images/Untitled design (9).png" alt="lights" class="light">
+    <div class="overlay" class="toggle-nav"></div>
     <header>
+        <div class="hamburger" onclick="toggleNav()">
+            <hr>
+            <hr>
+            <hr>
+        </div>
         <h1>Ryan & Jordan</h1>
-        <nav>
+        <nav class="toggle-nav">
             <a href="index.html">Home</a>
             <a href="story.html">Our Story</a>
             <a href="party.html">Wedding Party</a>
-            <a href="venue.html">Venue</a>
+            <a href="venue.html">Location</a>
             <a href="schedule.html">Schedule</a>
             <a href="photos.html">Photos</a>
             <a href="registry.html">Registry</a>
@@ -37,11 +44,22 @@
     <main>
         <img src="images/Untitled design (10).png" alt="logos" class="registry">
         <div class="links">
-        <a href="https://www.amazon.com/wedding/share/ryan_and_jordan_august23" target="_blank" class="amazon">Amazon</a>
-        <a href="www.menards.com/main/registrydetail.html?registryId=175925376&lastName=Albrecht" target="_blank" class="menards">Menards</a>
-        <a href="https://www.target.com/gift-registry/gift/randjday" target="_blank" class="target">Target</a>
+            <a href="https://www.amazon.com/wedding/share/ryan_and_jordan_august23" target="_blank" class="amazon">Amazon</a> 
+            <a href="www.menards.com/main/registrydetail.html?registryId=175925376&lastName=Albrecht" target="_blank" class="menards">Menards</a>
+            <a href="https://www.target.com/gift-registry/gift/randjday" target="_blank" class="target">Target</a>
+        </div>
+        <div class="mregistry"></div>
+            <img src="images/Amazon.png" class="amazonlogo">
+        <a href="https://www.amazon.com/wedding/share/ryan_and_jordan_august23" target="_blank" class="link" class="amazons">Amazon</a>
+            <img src="images/Menards.png" class="menardslogo">
+        <a href="www.menards.com/main/registrydetail.html?registryId=175925376&lastName=Albrecht" target="_blank" class="link" class="menardss">Menards</a>
+            <img src="images/Target.png" class="targetlogo">
+        <a href="https://www.target.com/gift-registry/gift/randjday" target="_blank" class="link" class="targets">Target</a>
         </div>
     </main>
+    <footer>
+        <img src="images/Untitled design (9).png" alt="lights" class="light">
+    </footer>
 </body>
 </html>
 

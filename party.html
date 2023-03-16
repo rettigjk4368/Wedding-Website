@@ -18,24 +18,31 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <script src="scripts.js"></script>
 </head>
 <body>
     <img src="images/Untitled design (9).png" alt="lights" class="light">
+    <div class="overlay" class="toggle-nav"></div>
     <header>
+        <div class="hamburger" onclick="toggleNav()">
+            <hr>
+            <hr>
+            <hr>
+        </div>
         <h1>Ryan & Jordan</h1>
-        <nav>
+        <nav class="toggle-nav">
             <a href="index.html">Home</a>
             <a href="story.html">Our Story</a>
             <a href="party.html">Wedding Party</a>
-            <a href="venue.html">Venue</a>
+            <a href="venue.html">Location</a>
             <a href="schedule.html">Schedule</a>
             <a href="photos.html">Photos</a>
             <a href="registry.html">Registry</a>
             <a href="rsvp.html">RSVP</a>
         </nav>
-        <hr>
     </header>
     <main>
+        <p class="title">Wedding Party</p>
         <section class="all">
         <section class="bride">
             <div class="bridediv">
@@ -52,6 +59,7 @@
                 <p class="h5">Ryan Albrecht</p>
                 <p class="gp">Ryan is originally from Fairfax, MN and currently lives Willmar, MN. He works at Prinsco, a water management solutions company, as an application engineer. In his spare time, Ryan enjoys outdoor activities, all sorts of projects, playing music, and spending time with his future bride.</p>
             </div>
+            <img src="images/Ryan.jpg" alt="Fishing" class="ryanpics">
         </section>
         <section class="bride1">
             <div>
@@ -63,12 +71,13 @@
         </section>
         <section class="groom1">
             <img src="images/IMG_20220922_102052983_HDR.jpg" alt="Lexi" class="coreypic">
-            <div>
+            <div class="coreydiv">
                 <p class="h4">Best Man</p>
                 <p class="h5">Corey Albrecht</p>
                 <p class="gp">Corey is Ryan's older brother and resides in Fairfax, MN. He is the superintendent of the Mayflower Golf Club south of Fairfax, and enjoys the many different challenges that come with the job. Ryan loves to help Corey at the course whenever he can. A favorite memory of Ryan's with Corey is getting a camel ride at the Ark Encounter. 
                 </p>
             </div>
+            <img src="images/IMG_20220922_102052983_HDR.jpg" alt="Lexi" class="coreypics">
         </section>
         <section class="bride2">
             <div>
@@ -85,6 +94,7 @@
                 <p class="h5">Brandon Albrecht</p>
                 <p class="gp">Brandon is Ryan's oldest brother and resides in Des Moines, IA. He enjoys spending time outdoors; going fishing in the summer, and snowmobiling in the winter. A favorite memory of Ryan's with Brandon was snowboarding down the road pulled by a four wheeler during a mid-April snowstorm.</p>
             </div>
+            <img src="images/Screenshot_20230209_111347.png" alt="Lexi" class="brandonpics">
         </section>
         <section class="bride3">
             <div>
@@ -101,6 +111,7 @@
                 <p class="h5">Ryan Fick</p>
                 <p class="gp">Ryan is a friend of Ryan's from college. He grew up in Garretson, SD and now resides in Minneapolis, MN where he works as an electrical engineer. Ryan and Ryan lived together in Brookings for 3 years. A favorite memory of Ryan's with Ryan was playing ping pong most days during sophomore year of college.</p>
             </div>
+            <img src="images/Screenshot_20230206_035312.png" alt="Lexi" class="fickpics">
         </section>
         <section class="bride4">
             <div>
@@ -117,6 +128,7 @@
                 <p class="h5">Jarod Goepferich</p>
                 <p class="gp">Jarod is a friend of Ryans's from college. He grew up in Cottonwood, MN and now resides in the Sioux Falls, SD area where he works as a field engineer. Ryan and Jaord lived together for 2 years in Brookings and a favorite memory of Ryan's during that time was getting up at 6 a.m. on Fridays to go play basketball with Jarod.</p>
             </div>
+            <img src="images/Screenshot_20230206_041611.png" alt="Lexi" class="jarodpics">
         </section>
         <section class="bride5">
             <div>
@@ -134,6 +146,7 @@
                 <p class="gp">Matthias is a friend of Ryan's from college. He grew up on a farm in Fulda, MN. He now resides in Brewster, MN where he works nearby as a seed specialist. A favorite memory of Ryan's with Matthias was playing (indoor) sand volleyball in December, where the team took 3rd place. 
                 </p>
             </div>
+            <img src="images/Screenshot_20230205_020428.png" alt="Lexi" class="matthiaspics">
         </section>
         <section class="bride6">
             <div>
@@ -150,6 +163,7 @@
                 <p class="h5">Devon Schwarzrock</p>
                 <p class="gp">Devon and Jordan have been friends for many, many years. Devon grew up two house down from Jordan. Devon is currently living in Fargo, North Dakota where he studies something at NDSU. Ryan and Jordan enjoy going deer hunting with Devon every fall.</p>
             </div>
+            <img src="images/IMG_5892.jpg" alt="Lexi" class="devonpics">
         </section>
         <section class="bride7">
             <div>
@@ -166,9 +180,13 @@
                 <p class="h5">Quinn Bleick</p>
                 <p class="gp">Quinn is a friend of both Ryan and Jordan. Quinn currently lives in Brookings, SD, where he attends SDSU finishing his degree in Agronomy. Ryan and Quinn enjoy a good game of golf, while Jordan and Quinn prefer a game of baseball.</p>
             </div>
+            <img src="images/Screenshot_20230209_123441.png" alt="Lexi" class="quinnpics">
         </section>
         </section>
     </main>
+    <footer>
+         <img src="images/Untitled design (9).png" alt="lights" class="light">
+    </footer>
 </body>
 </html>
 
