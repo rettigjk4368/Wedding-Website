@@ -538,6 +538,15 @@ nav>a:hover{
 .title{
     display: none;
 }
+.storypics{
+    display: none;
+}
+.image2{
+    display: none;
+}
+.smalllights{
+    display: none;
+}
 
 @media(max-width:1200px){
     .hamburger{
@@ -622,25 +631,50 @@ nav>a:hover{
     .amazonlogo{
         display: flex;
         height: 15rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
     }
     .targetlogo{
         display: flex;
         height: 15rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
     }
     .menardslogo{
         display: flex;
         height: 15rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
     }
     .links{
         display: none;
     }
     .link{
         display: flex;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        font-size: 4rem;
+        font-family: 'Euphoria Script', cursive;
+        color: #B3D0D0;
+    }
+    .link:hover{
+        color: #CC988E;
     }
     .mregistry{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        max-height: 30rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-bottom: 0;
     }
     .bride{
         display: block;
@@ -678,11 +712,138 @@ nav>a:hover{
         margin: .5rem;
         padding-top: 1rem;
         text-decoration: dotted underline;
+        padding-bottom: 1rem;
     }
-    .amazons,.targets,.menardss{
+    .amazon,.target,.menards{
         margin: 0;
         font-size: 4rem;
         color: #B3D0D0;
         font-family: 'Euphoria Script', cursive;
+    }
+    .bridediv{
+        width: 100%;
+        display: block;
+        margin: auto;
+        font-size: large;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        line-height: 150%;
+        color: #fafafc;
+    }
+    .h4{
+        font-size: 4rem;
+        color: #fafafc;
+        font-family: 'Euphoria Script', cursive;
+        margin: 1rem;
+        padding-top: 1rem;
+        line-height: 100%;
+    }
+    .h5{
+        font-size: 3rem;
+        color:#B3D0D0;
+        font-family: 'Euphoria Script', cursive; 
+        padding-left: 3rem; 
+        line-height: 100%;
+    }
+    .bride,.bride1,.bride2,.bride3,.bride4,.bride5,.bride6,.bride7,.groom,.groom1,.groom2,.groom3,.groom4,.groom5,.groom6,.groom7{
+        width: 110%;
+        display: block;
+        justify-content: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        line-height: 150%;
+        color: #fafafc;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1rem;
+    }
+    .home{
+        padding-bottom: 10rem;
+    }
+    .coverhead{
+        padding-bottom: 3rem;
+    }
+    .storypic{
+        display: none;
+    }
+    .storypics{
+        display: block;
+        width: 100%;
+        margin: auto;
+        background-color: #B3D0D0;
+        padding: .5rem;
+    }
+    .church{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 70%;
+        display: block;
+        margin: auto;
+        font-size: large;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        line-height: 120%;
+        color: #fafafc;
+        font-size: 1.2rem;
+    }
+    .churchp{
+        padding: 2rem;
+    }
+    .churchpic{
+        background-color: #B3D0D0;
+        max-height: 40rem;
+        padding: .5rem;
+    }
+    .churchaddress{
+        color: #fafafc;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+    .barn{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 73%;
+        display: block;
+        margin: auto;
+        font-size: large;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        line-height: 150%;
+        color: #fafafc;
+        font-size: 1.2rem;
+    }
+    .barnp{
+        padding: 2rem;
+    }
+    .barnaddress{
+        color: #fafafc;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+    .barnpic{
+        max-height: 27rem;
+        padding: .5rem;
+        background-color: #B3D0D0;
+    }
+    .image1{
+        display: none;
+    }
+    .image2{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+        padding: .5rem;
+    }
+    .light{
+        display: none;
+    }
+    .smalllights{
+        display: block;
+        width: 100%;
     }
 }
