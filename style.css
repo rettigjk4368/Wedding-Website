@@ -712,7 +712,6 @@ nav>a:hover{
         margin: .5rem;
         padding-top: 1rem;
         text-decoration: dotted underline;
-        padding-bottom: 1rem;
     }
     .amazon,.target,.menards{
         margin: 0;
@@ -720,23 +719,11 @@ nav>a:hover{
         color: #B3D0D0;
         font-family: 'Euphoria Script', cursive;
     }
-    .bridediv{
-        width: 100%;
-        display: block;
-        margin: auto;
-        font-size: large;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        line-height: 150%;
-        color: #fafafc;
-    }
     .h4{
         font-size: 4rem;
         color: #fafafc;
         font-family: 'Euphoria Script', cursive;
         margin: 1rem;
-        padding-top: 1rem;
         line-height: 100%;
     }
     .h5{
@@ -757,6 +744,13 @@ nav>a:hover{
         color: #fafafc;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 1rem;
+    }
+    .ryanpic{
+        max-height: 10rem;
+    }
+    .gp{
+        width: 100%;
+        padding: 0;
     }
     .home{
         padding-bottom: 10rem;
