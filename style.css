@@ -590,6 +590,7 @@ nav>a:hover{
         padding: 1rem;
         border: 1px solid #CC988E;
         background-color: #50878F;
+        font-size: 2rem;
     }
     header nav.show{
         left: 0;
