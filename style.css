@@ -1,5 +1,5 @@
 body{
-    background-color: #476A6F;
+    background-color: #50878F;
 }
 h1{
     font-family: 'Euphoria Script', cursive;
@@ -39,11 +39,11 @@ header>nav>a{
     justify-content: center;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Euphoria Script', cursive;
     display: flex;
     justify-content: center;
-    color: #fafafc;
+    color:#CC988E;
 }
 h3{
     font-size: 2rem;
@@ -54,6 +54,12 @@ h3{
 }
 nav>a:hover{
     color: #CC988E;
+}
+.home{
+    padding-bottom: 2rem;
+}
+.schedule{
+    padding-bottom: 25rem;
 }
 .storypic{
     display: block;
@@ -73,6 +79,7 @@ nav>a:hover{
     justify-content: flex-start;
     line-height: 150%;
     color: #fafafc;
+    padding-bottom: 2rem;
 }
 .storywords{
     padding: 1rem;
@@ -532,7 +539,7 @@ nav>a:hover{
 .link{
     display: none;
 }
-.quinnpics,.devonpics,.matthiaspics,.jarodpics,.fickpics,.brandonpics,.coreypics,.ryanpics{
+.quinnpics,.devonpics,.matthiaspics,.jarodpics,.fickpics,.brandonpics,.coreypics,.ryanpics,.jopics,.lexipics,.jennapics,.miahpics,.carlypics,.morganpics,.allisonpics,.mylaneypics{
     display: none;
 }
 .title{
@@ -549,10 +556,18 @@ nav>a:hover{
 }
 
 @media(max-width:1200px){
+    .story{
+        width: 95%;
+    }
+    .all{
+        display: block;
+        width: 95%;
+        padding: 1rem;
+    }
     .hamburger{
         display: block;
         width: 40px;
-        padding: .5rem;
+        padding-left: .5rem;
     }
     .hamburger hr{
         margin: .75rem 0;
@@ -560,11 +575,11 @@ nav>a:hover{
     }
     header nav{
         position: fixed;
-        width: 50%;
-        top: 9rem;
-        left: 110%;
+        width: 100%;
+        top: 8rem;
+        left: 100%;
         transition-property: left;
-        transition-duration: .75s;
+        transition-duration: .5s;
         transition-timing-function: ease-in-out;
     }
     header nav a{
@@ -572,8 +587,9 @@ nav>a:hover{
         color: #B3D0D0;
         text-align: center;
         text-decoration: none;
-        padding: 3rem;
+        padding: 1rem;
         border: 1px solid #CC988E;
+        background-color: #50878F;
     }
     header nav.show{
         left: 0;
@@ -581,7 +597,7 @@ nav>a:hover{
     .overlay{
         width: 100%;
         height: 100%;
-        top: 4.75rem;
+        top: 6rem;
         position: fixed;
         background-color: #0b132b65;
         transition-property: left;
@@ -592,11 +608,20 @@ nav>a:hover{
     .overlay.show{
         left: 0;
     }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
     h1{
         font-size: 4rem;
     }
     header>nav{
         font-size: 1.25rem;
+        display: flex;
+        flex-direction: column;
     }
     header>nav>a{
         padding: .5rem;
@@ -694,13 +719,13 @@ nav>a:hover{
     .groom1,.groom2,.groom3,.groom4,.groom5,.groom6,.groom7{
         display: block;
     }
-    .quinnpic,.devonpic,.matthiaspic,.jarodpic,.fickpic,.brandonpic,.coreypic,.ryanpic{
+    .quinnpic,.devonpic,.matthiaspic,.jarodpic,.fickpic,.brandonpic,.coreypic,.ryanpic,.jopic,.lexipic,.jennapic,.miahpic,.carlypic,.morganpic,.allisonpic,.mylaneypic{
         display: none;
     }
-    .quinnpics,.devonpics,.matthiaspics,.jarodpics,.fickpics,.brandonpics,.coreypics,.ryanpics{
+    .quinnpics,.devonpics,.matthiaspics,.jarodpics,.fickpics,.brandonpics,.coreypics,.ryanpics,.lexipics,.jopics,.jennapics,.carlypics,.miahpics,.morganpics,.allisonpics,.mylaneypics{
         display: block;
         background-color: #B3D0D0;
-        max-height: 15rem;
+        max-height: auto;
         padding: .5rem;
     }
     .title{
@@ -734,7 +759,7 @@ nav>a:hover{
         line-height: 100%;
     }
     .bride,.bride1,.bride2,.bride3,.bride4,.bride5,.bride6,.bride7,.groom,.groom1,.groom2,.groom3,.groom4,.groom5,.groom6,.groom7{
-        width: 110%;
+        width: 95%;
         display: block;
         justify-content: center;
         margin: auto;
@@ -744,9 +769,6 @@ nav>a:hover{
         color: #fafafc;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 1rem;
-    }
-    .ryanpic{
-        max-height: 10rem;
     }
     .gp{
         width: 100%;
