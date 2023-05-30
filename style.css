@@ -488,6 +488,44 @@ nav>a:hover{
     display: flex;
     justify-content: flex-end;
 }
+.bride8{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.juliapic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.groom8{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+    color: #fafafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.masonpic{
+    background-color: #B3D0D0;
+    max-height: 15rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
 .registry{
     max-height: 30rem;
     display: block;
@@ -539,7 +577,7 @@ nav>a:hover{
 .link{
     display: none;
 }
-.quinnpics,.devonpics,.matthiaspics,.jarodpics,.fickpics,.brandonpics,.coreypics,.ryanpics,.jopics,.lexipics,.jennapics,.miahpics,.carlypics,.morganpics,.allisonpics,.mylaneypics{
+.masonpics,.quinnpics,.devonpics,.matthiaspics,.jarodpics,.fickpics,.brandonpics,.coreypics,.ryanpics,.juliapics,.jopics,.lexipics,.jennapics,.miahpics,.carlypics,.morganpics,.allisonpics,.mylaneypics{
     display: none;
 }
 .title{
@@ -862,8 +900,17 @@ input[type=number]{
 .rsvpform{
     padding-bottom: 10rem;
 }
+.breaks{
+    display: none;
+}
 
 @media(max-width:1200px){
+    .break{
+        display: none;
+    }
+    .breaks{
+        display: block;
+    }
     .story{
         width: 95%;
     }
@@ -1022,16 +1069,16 @@ input[type=number]{
     .ryanpic{
         display: block;
     }
-    .bride1,.bride2,.bride3,.bride4,.bride5,.bride6,.bride7{
+    .bride1,.bride2,.bride3,.bride4,.bride5,.bride6,.bride7,.bride8{
         display: block;
     }
-    .groom1,.groom2,.groom3,.groom4,.groom5,.groom6,.groom7{
+    .groom1,.groom2,.groom3,.groom4,.groom5,.groom6,.groom7,.groom8{
         display: block;
     }
-    .quinnpic,.devonpic,.matthiaspic,.jarodpic,.fickpic,.brandonpic,.coreypic,.ryanpic,.jopic,.lexipic,.jennapic,.miahpic,.carlypic,.morganpic,.allisonpic,.mylaneypic{
+    .quinnpic,.devonpic,.matthiaspic,.jarodpic,.fickpic,.brandonpic,.coreypic,.ryanpic,.jopic,.lexipic,.jennapic,.miahpic,.carlypic,.morganpic,.allisonpic,.mylaneypic,.juliapic,.masonpic{
         display: none;
     }
-    .quinnpics,.devonpics,.matthiaspics,.jarodpics,.fickpics,.brandonpics,.coreypics,.ryanpics,.lexipics,.jopics,.jennapics,.carlypics,.miahpics,.morganpics,.allisonpics,.mylaneypics{
+    .quinnpics,.devonpics,.matthiaspics,.jarodpics,.fickpics,.brandonpics,.coreypics,.ryanpics,.lexipics,.jopics,.jennapics,.carlypics,.miahpics,.morganpics,.allisonpics,.mylaneypics,.juliapics,.masonpics{
         display: block;
         background-color: #B3D0D0;
         max-height: auto;
@@ -1067,7 +1114,7 @@ input[type=number]{
         padding-left: 3rem; 
         line-height: 100%;
     }
-    .bride,.bride1,.bride2,.bride3,.bride4,.bride5,.bride6,.bride7,.groom,.groom1,.groom2,.groom3,.groom4,.groom5,.groom6,.groom7{
+    .bride,.bride1,.bride2,.bride3,.bride4,.bride5,.bride6,.bride7,.groom,.groom1,.groom2,.groom3,.groom4,.groom5,.groom6,.groom7,.bride8,.groom8{
         width: 95%;
         display: block;
         justify-content: center;
