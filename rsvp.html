@@ -19,6 +19,7 @@
     <meta name="msapplication-config" content="images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <script src="scripts.js"></script>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="Celebrating the Marriage of Ryan Albrecht & Jordan Rettig">
     <meta name="keywords" content="Jordan Rettig, Ryan Albrecht, Wedding, Ryan Albrecht and Jordan Rettig">
@@ -48,32 +49,86 @@
         </nav>
     </header>
     <main>
-        <h4 class="schedule">Form Comming Soon!</h4>
-        <!--<h4>RSVP</h4>
-        <form action="https://getform.io/f/28e2b40c-c33a-4398-a825-2aec15036f1e" method="POST">
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="first-name">
-            <label for="last-name">Last Name</label>
-            <input type="text" id="last-name" name="last-name">
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email">
-            <fieldset>
-                <legend>Will you be attending?</legend>
-                <input type="radio" id="yes" name="attending-yes" value="yes">
-                <label for="yes">Yes, I am delighted to attend</label>
-                <input type="radio" id="attending-no" name="attending-no" value="no">
-                <label for="attending-no">No, I will not be able to attend</label>
-            </fieldset>
-            <label for =people>Number of Guests</label>
-            <input type="number" id="people" name="people" value="0" min="0" max="1000000">
-            <label for=message>Message</label>
-            <input type="text" id="message" name="message" value="type here">
-            <div class="actions">
-                <input type="reset">
-                <input type="submit">
+            <div class="rsvpform">
+                <div class="library-card envelope">
+
+                    <div class="front">
+                    <p class="stamp">Click here to RSVP</p>
+                    </div>
+                
+                    <div class="card">
+                    <h4 class="dewey-decimal">8.26.23</h4>
+                    <h2 class="author">RSVP</h2>
+                    <h4 class="title1">You're invited to our wedding!</h4>
+                
+                    <table>
+                    <tr>
+                    <td class="due-date form-label">
+                        <time>Name</time>
+                    </td>
+                    <td class="issued-to">
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="due-date form-label">
+                        <time></time>
+                    </td>
+                    <td class="issued-to">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="due-date form-label">
+                        <time>Guest</time>
+                    </td>
+                    <td class="issued-to">
+                        <br>
+                        <br>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="due-date form-label">
+                        <time></time>
+                    </td>
+                    <td class="issued-to">
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="due-date">
+                        <time></time>
+                    </td>
+                    <td class="issued-to">
+                        <br>
+                    </td>
+                    </tr>
+                    </table>
+                    <form id='rsvp-form' action="https://getform.io/f/28e2b40c-c33a-4398-a825-2aec15036f1e" method="POST">
+                        <input id='name' name='name' type='text' placeholder=" Enter First & Last Name">  
+                                <fieldset class="attending">
+                                    <legend>Will you be attending?</legend>
+                                    <div>
+                                    <input type="radio" id="attending-yes" name="attending" value="yes" class="attending-yes">
+                                    <label class="yes" for="yes">Yes, I'd be delighted</label>  
+                                    <br>
+                                    <input type="radio" id="attending-no" name="attending" value="no" class="attending-no">
+                                    <label class="no" for="no">No, I'm unable to</label>  
+                                </div>                            
+                                </fieldset>        
+                        <label class="number" for="number">Number Attending</label>
+                        <input type="number" id="number" name="number" min="0" max="10">
+                        <input id='plusone' class="plusone" name='plusone' type='text' placeholder=" Enter Your Guest's Name">
+                        <input id='email' name='email' type='text' placeholder="Note to Bride & Groom">
+                    <div class="submit">SUBMIT</div>
+                    </form>
+                    </div>
+                </div>
             </div>
-        </form>
-    -->
+                </div>
+                <!-- partial -->
+                    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script><script  src="./script.js"></script>
     </main>
     <footer>
         <img src="images/Untitled design (9).png" alt="lights" class="light">

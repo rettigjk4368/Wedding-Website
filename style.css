@@ -59,7 +59,7 @@ nav>a:hover{
     padding-bottom: 2rem;
 }
 .schedule{
-    padding-bottom: 25rem;
+    padding-bottom: 1rem;
 }
 .storypic{
     display: block;
@@ -553,6 +553,314 @@ nav>a:hover{
 }
 .smalllights{
     display: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+@import url(https://fonts.googleapis.com/css?family=Give+You+Glory);
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+.library-card {
+  font-family: monospace;
+  transform: rotate(3deg);
+}
+
+.library-card.envelope {
+  background-color: #dbd7c2;
+  border-radius: 3px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  height: 400px;
+  margin: 100px auto 0;
+  padding-top: 50px;
+  position: relative;
+  width: 340px;
+}
+
+.library-card > .front {
+  background-color: #d9cc8c;
+  background: -webkit-radial-gradient(#f2eed9, #d9cc8c) 50% -150px, #d9cc8c;
+  background-repeat: no-repeat;
+  background-size: 150% 600px;
+  border-radius: 2px 2px 3px 3px;
+  box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  height: 450px;
+  margin-left: -10px;
+  position: relative;
+  width: 350px;
+  z-index: 1;
+}
+
+.library-card > .card {
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.5);
+  height: 550px;
+  margin-left: -5px;
+  position: absolute;
+  top: -60px;
+  width: 340px;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(1deg);
+}
+
+.envelope.card-out > .card {
+  box-shadow: 0 0 0.6em rgba(0, 0, 0, 0.5);
+  -webkit-animation: card-pull 1s 1;
+  -webkit-transform: rotate(-5deg);
+  z-index: 2;
+}
+
+.envelope.card-in > .card {
+  box-shadow: 0 0 0.6em rgba(0, 0, 0, 0.5);
+  -webkit-animation: card-in 1s 1;
+  z-index: 0;
+}
+
+@-webkit-keyframes card-pull {
+  0% {
+    box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.5);
+    top: -60px;
+    -webkit-transform: rotate(1deg);
+    z-index: 0;
+  }
+  50% {
+    box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.5);
+    top: -400px;
+    -webkit-transform: rotate(-1deg);
+    z-index: 0;
+  }
+  100% {
+    box-shadow: 0 0 0.6em rgba(0, 0, 0, 0.5);
+    top: -60px;
+    -webkit-transform: rotate(-5deg);
+    z-index: 2;
+  }
+}
+@-webkit-keyframes card-in {
+  0% {
+    box-shadow: 0 0 0.6em rgba(0, 0, 0, 0.5);
+    top: -60px;
+    -webkit-transform: rotate(-5deg);
+    z-index: 2;
+  }
+  50% {
+    box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.5);
+    top: -400px;
+    -webkit-transform: rotate(-1deg);
+    z-index: 2;
+  }
+  55% {
+    z-index: 0;
+  }
+  100% {
+    box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.5);
+    top: -60px;
+    -webkit-transform: rotate(1deg);
+    z-index: 0;
+  }
+}
+@-webkit-keyframes card-stuff {
+  0% {
+    box-shadow: 0 0 0.6em rgba(0, 0, 0, 0.5);
+    top: -60px;
+    -webkit-transform: rotate(-5deg);
+    z-index: 2;
+  }
+  50% {
+    box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.5);
+    top: -400px;
+    -webkit-transform: rotateZ(-1deg);
+    z-index: 0;
+  }
+  100% {
+    box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.5);
+    top: -60px;
+    -webkit-transform: rotate(1deg);
+    z-index: 0;
+  }
+}
+.library-card .card {
+  line-height: 38px;
+}
+
+.library-card .stamp {
+  color: #000000;
+  font-family: Futura;
+  font-size: 16px;
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+.library-card .dewey-decimal {
+  float: left;
+  height: 106px;
+  padding-left: 10px;
+  width: 60px;
+}
+
+.library-card .title1 {
+  margin-right: 75px;
+  line-height: 18px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.library-card table {
+  clear: left;
+}
+
+
+.library-card th {
+  font-family: Futura;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.library-card .due-date {
+  padding: 0 6px;
+  width: 75px;
+}
+
+.library-card td.due-date {
+  color: #000000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+}
+
+.library-card tr:nth-child(2) td.due-date {
+  -webkit-transform: rotate(0deg);
+}
+
+.library-card tr:nth-child(3) td.due-date {
+  -webkit-transform: rotate(0deg);
+  right: -7px;
+}
+
+.library-card .issued-to {
+  padding: 0 5px;
+  width: 225px;
+}
+
+.library-card td.issued-to {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 32px;
+}
+
+.library-card tr:nth-child(2) td.issued-to {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.library-card tr:nth-child(3) td.issued-to {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  -webkit-transform: rotate(0deg);
+}
+
+
+.form-label * {
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+#rsvp-form {
+  position: absolute;
+  top: 179px;
+  left: 80px;
+}
+#rsvp-form input {
+  background: rgba(255, 255, 255, 0);
+}
+
+#rsvp-form label {
+  color: rgba(0, 0, 0, 0.3);
+  float: left;
+  margin-left: 10px;
+  padding-left: 10px;
+  text-indent: -10px;
+}
+#rsvp-form select {
+  margin-left: 7px;
+  padding: 5px 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #f0f0f0;
+  color: rgba(0, 0, 0, 0.5);
+}
+#rsvp-form select option {
+  text: black;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(.75); 
+    -webkit-transform: scale(.75);
+    transform: scale(.75);
+  }
+
+.attending{
+    display: inline-block;
+    justify-content: center;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+#rsvp-form .number{
+    color: #000000;
+    padding-top: .23rem;
+    padding-bottom: .2rem;
+    padding-right: .23rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#rsvp-form .attending-no{
+    color: #000000;
+}
+#rsvp-form .yes, #rsvp-form .no{
+    color: #000000;
+}
+input[type=text]{
+    border: none;
+}
+input[type=number]{
+    padding-left: 1rem;
+    margin-top: .7rem;
+    border-radius: 1px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+#rsvp-form .submit {
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 150%;
+  margin-left: 30px;
+  color: #50878F;
+  border: 3px solid #50878F;
+  border-radius: 10px;
+  width: 150px;
+  background-color: #f0f0f0;
+  margin-top: 1rem;
+}
+
+#rsvp-form .submit:hover{
+    background-color: #B3D0D0;
+    color: #CC988E;
+}
+
+.rsvpform{
+    padding-bottom: 10rem;
 }
 
 @media(max-width:1200px){
