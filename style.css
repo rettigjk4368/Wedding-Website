@@ -592,6 +592,16 @@ nav>a:hover{
 .smalllights{
     display: none;
 }
+.schedules{
+    display: block;
+    width: 50%;
+    margin: auto;
+    background-color: #B3D0D0;
+    padding: .5rem;
+}
+.sched{
+    padding-bottom: 4rem;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 @import url(https://fonts.googleapis.com/css?family=Handlee);
