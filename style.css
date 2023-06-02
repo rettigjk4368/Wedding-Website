@@ -611,37 +611,40 @@ html {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
   height: 400px;
   margin: 100px auto 0;
-  padding-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 125px;
   position: relative;
-  width: 340px;
+  width: 345px;
 }
 
 .library-card > .front {
   background-color: #d9cc8c;
-  background: -webkit-radial-gradient(#f2eed9, #d9cc8c) 50% -150px, #d9cc8c;
+  background: -webkit-radial-gradient(#f2eed9, #d9cc8c) 50% 0px, #d9cc8c;
   background-repeat: no-repeat;
   background-size: 150% 600px;
   border-radius: 2px 2px 3px 3px;
   box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  height: 450px;
+  height: 605px;
   margin-left: -10px;
   position: relative;
-  width: 350px;
+  width: 355px;
   z-index: 1;
 }
+
+
 
 .library-card > .card {
   background-color: #f0f0f0;
   border-radius: 3px;
   box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.5);
   height: 550px;
-  margin-left: -5px;
+  margin-left: -10px;
   position: absolute;
-  top: -60px;
-  width: 340px;
+  top: -80px;
+  width: 345px;
   -webkit-backface-visibility: hidden;
-  -webkit-transform: rotate(1deg);
+  -webkit-transform: rotate(0deg);
 }
 
 .envelope.card-out > .card {
