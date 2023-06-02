@@ -925,6 +925,7 @@ input[type=number]{
         padding-left: .5rem;
     }
     .hamburger hr{
+        z-index: 99;
         margin: .75rem 0;
         border: 2px solid white;
     }
