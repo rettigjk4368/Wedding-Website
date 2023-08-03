@@ -111,6 +111,33 @@ nav>a:hover{
     justify-content: center;
     font-size: 2rem;
 }
+.after{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 70%;
+    display: block;
+    margin: auto;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: 150%;
+    color: #fafafc;
+    font-size: 2rem;
+}
+.afterp{
+    padding: 3rem;
+}
+.afterpic{
+    background-color: #B3D0D0;
+    max-height: 30rem;
+    padding: .5rem;
+}
+.afteraddress{
+    color: #fafafc;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
 .barn{
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 73%;
@@ -1183,6 +1210,35 @@ input[type=number]{
         padding: .5rem;
     }
     .churchaddress{
+        color: #fafafc;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+    .after{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 70%;
+        display: block;
+        margin: auto;
+        font-size: large;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        line-height: 120%;
+        color: #fafafc;
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+    .afterp{
+        padding: 2rem;
+    }
+    .afterpic{
+        background-color: #B3D0D0;
+        max-height: 25rem;
+        padding: .5rem;
+    }
+    .afteraddress{
         color: #fafafc;
         display: flex;
         justify-content: center;
